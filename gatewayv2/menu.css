@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.foodclass {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  max-width: 110px;
+  border: 1px solid gold;
+  align-content: center;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.menuheader {
+  text-align: center;
+  color: yellow;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+#menulogoo {
+  width: 220px;
+  height: 110px;
+  align-content: center;
+}
+
+.menuss {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+#menupage3 {
+  background-color: black;
+}
+
+.menucolumn {
+  width: 20%;
+  color: goldenrod;
+  position: relative;
+  border: 2px solid goldenrod;
+  padding: 3px;
+  padding-bottom: 50px;
+}
+.menucolumn h5 {
+  font-size: 20px;
+}
+.menucolumn p {
+  text-align: start;
+  margin-bottom: 5px;
+}
+.menucolumn h4 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menuitems {
+  display: flex;
+  align-content: center;
+  margin-right: 20px;
+  margin-top: 40px;
+  height: 270px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menudesc h5 {
+  transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.menudesc h6 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.menudesc button {
+  background-color: goldenrod;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.menudesc {
+  text-align: center;
+}
+
+.itemdesc {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.pricebutton {
+  margin-top: 15px;
+}
+
+.pricebutton button:hover {
+  background-color: whitesmoke;
+  color: goldenrod;
+}
+
+#calamaributton {
+  margin-top: 21px;
+}
